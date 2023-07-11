@@ -17,7 +17,9 @@ function App() {
   return (
     <>
       <Nav/>
-      <Page/>
+      <div className="Content">
+        <Page/>
+      </div>
     </>
   )
 }
