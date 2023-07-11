@@ -2,7 +2,7 @@ export default function Nav(){
     return <nav className="Nav">
         <a href ="/" className="Title">Main Page</a>
         <ul>
-            <li>
+            <li className="active">
                 <a href="/aboutme">About Me</a>
             </li>
             <li>

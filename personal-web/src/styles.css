@@ -9,12 +9,36 @@ body{
 .Nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     gap: 1rem;
     padding: 0 1rem;
     background-color: cadetblue;
     color: white;
 }
 .Nav a{
+    display: flex;
+    padding: .3rem;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
     color: inherit;
+}
+
+.Nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Nav li.active{
+    background-color: rgb(127, 177, 177);
+}
+.Nav li:hover{
+    background-color: darkgray;
+}
+
+.Title{
+    font-size: xx-large;
 }
