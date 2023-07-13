@@ -3,22 +3,18 @@ import './App.css';
 import Nav from './Nav';
 import Home from './Pages/Home';
 import AboutMe from './Pages/AboutMe';
+import{Route,Routes} from "react-router-dom"
+
 
 function App() {
-  let Page
-  switch(window.location.pathname){
-    case "/":
-      Page=Home
-      break
-    case "/aboutme":
-      Page=AboutMe
-      break
-  }
   return (
     <>
       <Nav/>
       <div className="Content">
-        <Page/>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/aboutme" element={<AboutMe/>}/>
+        </Routes>
       </div>
     </>
   )

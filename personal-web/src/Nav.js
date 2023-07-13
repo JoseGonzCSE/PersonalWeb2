@@ -1,15 +1,15 @@
 import { Children } from "react"
-
+import { Link,useMatch,useResolvedPath} from "react-router-dom"
 export default function Nav(){
     return(
     <nav className="Nav">
-        <a href ="/" className="Title">Main Page</a>
+        <Link to ="/" className="Title">Main Page</Link>
         <ul>
-            <Link href="/aboutme">AboutMe</Link>
-            <Link href="/LinkedIn">LinkedIn</Link>
-            <Link href="/GitHub">GitHub</Link>
+            <Clink to="/aboutme">AboutMe</Clink>
+            <Clink to="/LinkedIn">LinkedIn</Clink>
+            <Clink to="/GitHub">GitHub</Clink>
             <li>
-                <a href="/test">Test</a>
+                <Link to="/test">Test</Link>
             </li>
         </ul>
     </nav>
@@ -17,12 +17,12 @@ export default function Nav(){
 }
 
 // When Children, stops working?
-function Link({href,...props}){
-    const path= window.location.pathname
-
+function Clink({to,...props}){
+    const resolvedPath=useResolvedPath(to)
+    const Active= useMatch({path:resolvedPath.pathname,end:true})
     return(
-        <li className={path===href ? "active": ""}>
-            <a href={href} {...props}></a>
+        <li className={Active ? "active": ""}>
+            <Link to={to} {...props}></Link>
         </li>
     )
 }
