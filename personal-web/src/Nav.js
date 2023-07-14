@@ -6,11 +6,8 @@ export default function Nav(){
         <Link to ="/" className="Title">Main Page</Link>
         <ul>
             <Clink to="/aboutme">AboutMe</Clink>
-            <Clink to="/LinkedIn">LinkedIn</Clink>
-            <Clink to="/GitHub">GitHub</Clink>
-            <li>
-                <Link to="/test">Test</Link>
-            </li>
+            <Clink to="https://www.linkedin.com/in/jose-gonzalez-424543231/" target="_blank" rel ="noreferrer" >LinkedIn</Clink>
+            <Clink to="https://github.com/JoseGonzCSE" target="_blank" rel ="noreferrer">GitHub</Clink>
         </ul>
     </nav>
     )
