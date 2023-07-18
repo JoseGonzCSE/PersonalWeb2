@@ -13,7 +13,6 @@ export default function Nav(){
     )
 }
 
-// When Children, stops working?
 function Clink({to,...props}){
     const resolvedPath=useResolvedPath(to)
     const Active= useMatch({path:resolvedPath.pathname,end:true})

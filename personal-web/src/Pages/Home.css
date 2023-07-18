@@ -1,0 +1,29 @@
+.infoBox{
+    display: flex;
+    height: 100vh;
+}
+.pageLeft{
+    flex: 1;
+}
+.pageRight{
+    flex: 1;
+}
+
+.pageLeftAll{
+    padding: 50px;
+}
+.main{
+    
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+    
+}
+.name{
+
+}
+
+.subText{
+   color: grey;
+   
+}
