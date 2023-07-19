@@ -20,7 +20,7 @@ export default function Home(){
                     <h1 className="name"> Jose 'Andres' Gonzalez</h1>
                     <p className="subText">Recent graduate in Computer Science and Engineering located in San Francisco </p>
                     <div className='skillContainer'>
-                        <p className="skills">Skills |</p>
+                        <p className="skills">Proficiency |</p>
                         <div className="logos">
                             <img src={pythonLogo} alt="pythonLogo"/>
                             <img src={djangoLogo} alt="DjangoLogo"/>
@@ -33,7 +33,6 @@ export default function Home(){
                     </div>
                 </div>
             </div>
-
             <div className='pageRight'></div>
 
         </div>

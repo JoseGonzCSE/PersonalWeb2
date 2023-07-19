@@ -3,6 +3,11 @@
     height: 100vh;
 }
 .pageLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -100px;
     flex: 1;
 }
 .pageRight{
@@ -11,6 +16,7 @@
 
 .pageLeftAll{
     padding: 50px;
+    
 }
 .main{   
     color: rgb(0, 0, 0);
@@ -40,7 +46,7 @@
 }
 .logos{
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 .logos img{
     width: 30px;
