@@ -12,18 +12,37 @@
 .pageLeftAll{
     padding: 50px;
 }
-.main{
-    
+.main{   
     color: rgb(0, 0, 0);
-    font-weight: bold;
+    font-weight: 350;
+    font-size: x-large;
+    
    
     
 }
 .name{
-
+    font-style: italic;
+    
 }
 
 .subText{
    color: grey;
-   
+}
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.logos{
+    display: flex;
+    gap: 10px;
+}
+.logos img{
+    width: 30px;
+    height: auto;
 }
