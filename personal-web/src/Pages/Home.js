@@ -6,6 +6,9 @@ import htmlLogo from './Imgs/html.png'
 import javascriptLogo from './Imgs/javascript.png'
 import reactLogo from './Imgs/react.png'
 import pythonLogo from './Imgs/python.png'
+import Me from './Imgs/Me.jpg'
+import MeTwo from './Imgs/meTwo.jpg'
+import MeThree from './Imgs/MeThree.jpg'
 
 
 
@@ -34,7 +37,7 @@ export default function Home(){
                 </div>
             </div>
             <div className='pageRight'></div>
-
+                <img src={MeThree} alt=" " className="imgMe"></img>
         </div>
     )
 }
