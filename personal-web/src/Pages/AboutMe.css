@@ -1,22 +1,42 @@
 .All{
     display: flex;
     height: 100vh;
-    
 }
 
-.pageRight{
+.A_pageRight{
     display: flex;
+    /*justify-content: center;*/
+    align-items: center;
     height: 100vh;
+    margin-top: -50px;
     flex: 1;
-    
+}
+.A_pageLeft{
+    flex: 1;
+    position: relative;
 }
 
-
-.pageRightAll{
-   padding: 50px;
-   text-align: left;
+.A_pageRightAll{
+    padding: 50px;
     
 }
 .title{
     text-align: left;
+    font-weight: 350;
+    font-size: x-large;
+    color: green;
 }
+.selfTitle{
+    font-style: italic;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+.biography{
+    color: grey;
+    text-align: justify;
+
+}
+

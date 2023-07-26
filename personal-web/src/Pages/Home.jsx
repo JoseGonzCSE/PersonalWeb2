@@ -15,7 +15,7 @@ export default function Home(){
                     <div className='pageLeftAll'>
                         <h2 className="main">Pleasure to meet you, name's</h2>
                         <h1 className="name"> Jose 'Andres' Gonzalez</h1>
-                        <p className="subText">Recent graduate in Computer Science and Engineering located in San Francisco </p>
+                        <p className="subText">Recent graduate in Computer Science and Engineering located in San Francisco, CA </p>
                         <div className='skillContainer'>
                             <p className="skills">Proficiency |</p>
                             <div className="logos">
