@@ -1,0 +1,22 @@
+.All{
+    display: flex;
+    height: 100vh;
+    
+}
+
+.pageRight{
+    display: flex;
+    height: 100vh;
+    flex: 1;
+    
+}
+
+
+.pageRightAll{
+   padding: 50px;
+   text-align: left;
+    
+}
+.title{
+    text-align: left;
+}

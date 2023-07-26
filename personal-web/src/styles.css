@@ -16,7 +16,7 @@ body{
     gap: 1rem;
     padding: 0 1rem;
     background-color: cadetblue;
-    color: white;
+    color:  rgb(215, 215, 215);
 }
 .Nav a{
     display: flex;
