@@ -1,4 +1,5 @@
 import './AboutMe.css'
+import Img2 from './Imgs/Img2.jpg'
 
 
 export default function AboutMe(){
@@ -6,7 +7,7 @@ export default function AboutMe(){
         <div className="All">
             <div className="A_pageLeft">
                 <div className="A_pageLeftAll">
-                    <p>This is a test</p>
+                <img src={Img2} alt=" " className="aboutImg"></img>
                 </div>
             </div>
             <div className="A_pageRight">
