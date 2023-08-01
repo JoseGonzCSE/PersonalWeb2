@@ -1,11 +1,21 @@
 import { Children } from "react"
 import { Link,useMatch,useResolvedPath} from "react-router-dom"
-export default function Nav(){
+import React from 'react';
+
+export default function Nav({aboutMeRef}){
+   
+    const handleScrollToAboutMe = () => {
+        
+        if (aboutMeRef && aboutMeRef.current) {
+          aboutMeRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+   
     return(
     <nav className="Nav">
-        <Link to ="/" className="Title">Main Page</Link>
+        <Link to ="/" className="Title">Welcome!</Link>
         <ul>
-            <Clink to="/aboutme">AboutMe</Clink>
+            <button className="NavButton" onClick={handleScrollToAboutMe}>About Me</button>
             <Clink to="https://www.linkedin.com/in/jose-gonzalez-424543231/" target="_blank" rel ="noreferrer" >LinkedIn</Clink>
             <Clink to="https://github.com/JoseGonzCSE" target="_blank" rel ="noreferrer">GitHub</Clink>
         </ul>
@@ -22,3 +32,4 @@ function Clink({to,...props}){
         </li>
     )
 }
+
