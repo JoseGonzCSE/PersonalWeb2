@@ -49,17 +49,17 @@ body{
 }
 
 .NavButton {
-    /* Add your custom styles here for the button */
     display: flex;
     align-items: center;
     padding: 0.3rem;
     text-decoration: none;
     color: inherit;
-    background-color: darkslategray;
+    background-color: cadetblue;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 16px;
 }
 
 .NavButton:hover {
