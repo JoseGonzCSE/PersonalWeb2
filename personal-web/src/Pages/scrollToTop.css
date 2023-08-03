@@ -1,0 +1,56 @@
+.ScrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.5s ease;
+    z-index: 9999;
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+0% {
+    opacity: 0;
+    transform: translateY(20px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.ScrollToTopButton:hover {
+    background-color: rgb(80, 80, 80);
+    animation: rocket 0.5s ease infinite;
+}
+
+@keyframes rocket {
+0% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-10px);
+}
+100% {
+    transform: translateY(0);
+}
+}
+
+.ScrollToTopButton:focus {
+outline: none;
+}
+
+.ScrollToTopButton:active {
+background-color: rgb(40, 40, 40);
+}

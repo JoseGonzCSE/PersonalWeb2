@@ -5,6 +5,7 @@ import Nav from './Nav';
 import Home from './Pages/Home';
 import AboutMe from './Pages/AboutMe';
 import Contact from './Pages/Contact';
+import ScrollToTopButton from './Pages/scrollToTop';
 import{Route,Routes} from "react-router-dom"
 
 
@@ -26,6 +27,7 @@ function App() {
           <Contact contactRef={contactRef}/>
         </div>
       </div>
+      <ScrollToTopButton/>
     </>
   )
 }
