@@ -7,6 +7,7 @@ import AboutMe from './Pages/AboutMe';
 import Contact from './Pages/Contact';
 import ScrollToTopButton from './Pages/scrollToTop';
 import{Route,Routes} from "react-router-dom"
+import 'animate.css';
 
 
 

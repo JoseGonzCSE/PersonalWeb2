@@ -25,6 +25,8 @@
     font-weight: 350;
     font-size: x-large;
     color: green;
+    animation: backInRight;
+    animation-duration: 2s;
 }
 .selfTitle{
     font-style: italic;

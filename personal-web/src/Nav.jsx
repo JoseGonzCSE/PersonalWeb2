@@ -1,6 +1,7 @@
 import { Children } from "react"
 import { Link,useMatch,useResolvedPath} from "react-router-dom"
 import React from 'react';
+import 'animate.css';
 
 export default function Nav({aboutMeRef,contactRef}){
 

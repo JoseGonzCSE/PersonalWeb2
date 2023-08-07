@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
 }
@@ -41,11 +43,17 @@ body{
 }
 .Nav a:hover{
     background-color: darkgray;
+    animation: shakeY;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .Title{
     font-size: xx-large;
     font-weight: bold;
+    animation: backInDown;
+    animation-duration: 2s;
+    
 }
 
 .NavButton {
@@ -64,6 +72,9 @@ body{
 
 .NavButton:hover {
 background-color: rgb(80, 80, 80);
+animation: shakeY;
+animation-duration: 3s;
+animation-iteration-count: infinite;
 }
 
 .NavButton:focus {

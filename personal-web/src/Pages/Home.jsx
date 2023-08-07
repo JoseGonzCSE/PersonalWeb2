@@ -20,13 +20,13 @@ export default function Home(){
                         <div className='skillContainer'>
                             <p className="skills">Proficiency |</p>
                             <div className="logos">
-                                <img src={pythonLogo} alt="pythonLogo"/>
-                                <img src={djangoLogo} alt="DjangoLogo"/>
-                                <img src={cLogo} alt="cLogo"/>
-                                <img src={htmlLogo} alt="htmlLogo"/>
-                                <img src={csslogo} alt="csslogo"/>
-                                <img src={javascriptLogo} alt="javascriptLogo"/>
-                                <img src={reactLogo} alt="reactLogo"/>
+                                <img className= "Logo1" src={pythonLogo} alt="pythonLogo"/>
+                                <img className= "Logo2" src={djangoLogo} alt="DjangoLogo"/>
+                                <img className= "Logo3" src={cLogo} alt="cLogo"/>
+                                <img className= "Logo4" src={htmlLogo} alt="htmlLogo"/>
+                                <img className= "Logo5" src={csslogo} alt="csslogo"/>
+                                <img className= "Logo6" src={javascriptLogo} alt="javascriptLogo"/>
+                                <img className= "Logo7" src={reactLogo} alt="reactLogo"/>
                             </div>
                         </div>
                     </div>

@@ -6,6 +6,7 @@ body{
 .infoBox{
     display: flex;
     height: 100vh;
+    
 }
 .pageLeft{
     display: flex;
@@ -31,6 +32,8 @@ body{
 }
 .name{
     font-style: italic;
+    animation: backInLeft;
+    animation-duration: 2s;
 }
 
 .subText{
@@ -53,12 +56,58 @@ body{
 .logos img{
     width: 30px;
     height: auto;
+    animation: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+.logo1{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.logo2{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.logo3{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.logo4{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+.logo5{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+.logo6{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+}
+.logo7{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
 }
 .imgMe {
     clip-path: polygon(38% 0, 100% 0%, 100% 100%, 0 100%);
     object-fit: cover;
     width: 100%;
     height: 100%;
+
 }
 
 
