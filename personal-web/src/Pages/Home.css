@@ -32,8 +32,10 @@ body{
 }
 .name{
     font-style: italic;
-    animation: backInLeft;
+    animation: pulse;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
 }
 
 .subText{
@@ -110,4 +112,10 @@ body{
 
 }
 
+@media screen and (max-width:480px) {
+    .infoBox{flex-direction: column;}
+    .pageLeft{flex-direction: column;}
+    .skillContainer{flex-direction: column;}
+    .skills{flex-direction: column;}
+}
 

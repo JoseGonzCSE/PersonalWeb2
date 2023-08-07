@@ -1,9 +1,17 @@
 import './AboutMe.css'
 import Img2 from './Imgs/Img2.jpg'
 import React, { useRef } from 'react';
+import { useInView } from 'react-intersection-observer';
+import 'animate.css'
 
 
 export default function AboutMe({aboutMeRef}){
+   
+    const [rightAllRef, rightAllInView] = useInView({
+        triggerOnce: true,
+        threshold: 0.2,
+      });
+   
     return (
         <div ref={aboutMeRef}>
             <div className="All">

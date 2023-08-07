@@ -86,3 +86,8 @@ transition: background-color 0.3s ease;
 margin-top: 20px;
 }
 
+
+@media screen and (max-width:480px) {
+    .container{flex-direction: column;}
+
+}
