@@ -7,6 +7,7 @@ import javascriptLogo from './Imgs/javascript.png'
 import reactLogo from './Imgs/react.png'
 import pythonLogo from './Imgs/python.png'
 import MeThree from './Imgs/MeThree.jpg'
+import React  from 'react';
 
 export default function Home(){
     return (
