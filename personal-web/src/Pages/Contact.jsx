@@ -3,12 +3,13 @@ import frontEndImg from './Imgs/greg-rakozy-vw3Ahg4x1tY-unsplash.jpg'
 import BackEndImg from './Imgs/altumcode-PNbDkQ2DDgM-unsplash.jpg'
 import PersonalImg from './Imgs/dan-dimmock-sNwnjxm8eTY-unsplash.jpg'
 import React, { useRef } from 'react';
+import 'animate.css'
 
 export default function Contact({contactRef}){
     return(
         <div ref={contactRef}>
             <div className="mainContainer">
-                <h1 className="Title">Skills</h1>
+                <h1 className="Skill_Title">Skills</h1>
                 <div className="container">
                     <div className="frontEnd">
                         <h2>Front-end</h2>

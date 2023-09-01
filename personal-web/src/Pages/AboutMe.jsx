@@ -6,12 +6,12 @@ import 'animate.css'
 
 
 export default function AboutMe({aboutMeRef}){
-   
+
     const [rightAllRef, rightAllInView] = useInView({
         triggerOnce: true,
         threshold: 0.2,
-      });
-   
+    });
+
     return (
         <div ref={aboutMeRef}>
             <div className="All">
@@ -24,8 +24,8 @@ export default function AboutMe({aboutMeRef}){
                     <div className="A_pageRightAll">
                         <h4 className="title"> About Me</h4>
                         <h3 className="selfTitle"> 
-                            Passionate Computer Science and Engineering Graduate | Avid Reader, Skilled Gamer, Fitness Enthusiast, 
-                            Fearless Skateboarder, and Aspiring Guitarist 
+                            Passionate Computer Science and Engineering Grad | Full-Stack Developer, Avid Reader, Skilled Gamer, Fitness Enthusiast, 
+                            Fearless Skateboarder
                         </h3>
                         <p className="biography"> 
                             From a young age, my fascination with computers was ignited when I was 

@@ -17,7 +17,7 @@ body{
     align-items: stretch;
     gap: 1rem;
     padding: 0 1rem;
-    background-color: cadetblue;
+    background-color: #4682A9;
     color:  rgb(215, 215, 215);
 }
 .Nav a{
@@ -42,7 +42,7 @@ body{
     background-color: rgb(127, 177, 177);
 }
 .Nav a:hover{
-    background-color: darkgray;
+    background-color: #749BC2;
     animation: shakeY;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -62,7 +62,7 @@ body{
     padding: 0.3rem;
     text-decoration: none;
     color: inherit;
-    background-color: cadetblue;
+    background-color: #4682A9;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -71,7 +71,7 @@ body{
 }
 
 .NavButton:hover {
-background-color: rgb(80, 80, 80);
+background-color: #749BC2;
 animation: shakeY;
 animation-duration: 3s;
 animation-iteration-count: infinite;
